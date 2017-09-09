@@ -30,7 +30,7 @@ function prependKitten(name){
 }
 function removeLastKitten(){
   var res = kittens
-  //console.log(res.pop())
+  console.log(res.pop())
   return res
 }
 function removeFirstKitten(){
