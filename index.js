@@ -1,5 +1,8 @@
 const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"]
+
+removeLastKitten()
+
 function destructivelyAppendKitten(name){
 kittens=[...kittens,name]
 }
